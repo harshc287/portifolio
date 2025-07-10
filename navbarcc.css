@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.cnn-navbar {
+ 
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo {
+ width: 60px;
+ height:40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.nav-links li a:hover {
+  color: red;
+}
+
+.profile-icon img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
