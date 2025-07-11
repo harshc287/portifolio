@@ -1,0 +1,95 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .summary div {
+            width: 48%;
+            float: left;
+        }
+
+        p {
+            font-size: x-large;
+            padding: 25px;
+        }
+
+        button {
+            font-size: large;
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: 3px solid white;
+            border-radius: 25px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border-color: black;
+            cursor:pointer;
+        
+        }
+        img{
+            display: block;
+            width: 60%;
+            margin: 10x auto;
+            border-radius: 50%;
+        }
+        .headingh1{
+            background-color: black;
+            color: white;
+            font-size: x-large;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            }
+        nav{
+            background-color: gold;
+            height: 90px;
+
+        }
+        .navlist{
+            list-style-type: none;
+            padding-top: 30px;
+            width: 50%;
+            margin: 0 auto;
+        }
+        .listitem{
+          display: inline-block;
+          margin-left: 20px;
+        }
+        .navitem:link{
+            font-size: x-large;
+            text-decoration: none;
+            color: black;
+        }
+       .navitem:hover{
+            text-decoration: underline;
+           
+       }
+       .navitem:active{
+
+       }
+       .navitem:visited{
+         color: rgb(42, 178, 18);
+       }
+       .topnav{
+        display: flex;
+        justify-content: space-evenly;
+       }
+       .contact{}
+       .social{}
+       i{
+        font-size: x-large;
+        padding-left: 15px;
+       }
+       .linkicon.link{
+            color: black;
+       }
+       .linkicon.hover{
+        color: brown;
+       }
+       .linkicon.active{}
+       .linkicon.visited{
+        color: black;
+       }
