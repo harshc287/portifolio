@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+       table{}
+        table, th, td{
+            border: 1px solid black;
+        }
+        .restorent th{
+            padding: 5px;
+            background-color: aquamarine;
+        }
+        .restorent td{
+            padding: 10px;
+        }
+        .restorent tr{
+            background-color: greenyellow;
+        }
+        tr:nth-child()
+        {
+            background-color: blue;
+        }
+
+        
+       
+    </style>
+</head>
+<body>
+    <table style="width: 70%;" class="restorent">
+        <thead>
+            <tr>
+            <th>Sr No</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>price</th>
+            <th>action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Tea</td>
+                <td>Tea+ginger+sugar+milk</td>
+                <td>₹20</td>
+                <td><button>Order</button></td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Burger</td>
+                <td>Bread+pattie+vegitables</td>
+                <td>₹50</td>
+                <td><button>Order</button></td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Sandwich</td>
+                <td>bread+vegitables+sous</td>
+                <td>₹100</td>
+                <td><button>Order</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">00</th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red eyes</th>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>Weight</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>males</td>
+                <td>1.9</td>
+                <td>003</td>
+                <td>40%</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
