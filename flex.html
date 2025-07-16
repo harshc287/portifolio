@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX</title>
+    <style>
+        .mainflex{
+            display: flex;
+            background-color: rgb(2, 3, 87);
+            justify-content:left;
+            width: 95%;
+            height:70px;
+            align-items: center ;
+            padding:20px 20px;
+            margin-bottom: 15px;
+            font-size: large;
+            
+        }
+        .flexitem{
+            background-color: darkseagreen;
+            height:60px;
+            width:200px ;
+            align-items: center ;
+            justify-content:center;
+            display: flex;
+             }
+        .flexitem2{
+            display: flex;
+            background-color: aqua;
+            align-items: center;
+            justify-content:left;
+            height:60px;
+            width:50% ;   
+             padding-left:20px;
+         }
+         .flexitem3{
+            display: flex;
+            background-color:lightskyblue;
+            align-items: center;
+            justify-content:left;
+            height:60px;
+            width:25%;
+            padding-left:20px;
+         } 
+         .flexitem31{
+            background-color:lightcyan;
+            width: 50%;
+         } 
+         .flexitem4{
+            display: flex;
+            background-color:lawngreen;
+            align-items: center;
+            justify-content:left;
+            height:60px;
+            width:10%;
+             padding-left:20px;
+         } 
+         .flexitem41{
+            background-color: lawngreen;
+            width: 80%;
+         } 
+         .color{
+            background-color: blueviolet;
+         }
+         .flexitem5{
+            background-color: rgb(239, 119, 211);
+            height:60px;
+            width:70px ;
+            align-items: center ;
+            justify-content:center;
+            display: flex;
+         }
+         .flexitem6{
+             display: flex;
+            background-color:lawngreen;
+            align-items: center;
+            justify-content:center;
+            height:60px;
+            width:10%;
+             padding-left:20px;
+         }
+         .flexitem61{
+            width: 80%;
+            background-color: burlywood;
+            justify-content: left;
+         }
+         .flexitem7{
+            display: flex;
+            background-color:slateblue;
+            
+            justify-content: left;
+            height: 100px;
+            width: 80%;
+            padding-left:20px;
+            padding-top: 10px;
+         } 
+         .flexitem71{
+            width: 10%;
+         }
+         .flexitem72{
+           background-color: chocolate;
+         }
+         .mainflex2{
+            height: 100px;
+         }
+         .flexitem8{
+             display: flex;
+            background-color:lawngreen;
+            align-items: center;
+            justify-content:center;
+            height:60px;
+            width:10%;
+             padding-left:20px;
+         }
+         .flexitem81{
+            background-color: aqua;
+            flex-basis: 100%;
+            height: 60px;
+         }
+         .mainflex82{
+            height: 150px;
+            flex-wrap: wrap;
+            padding: 0%;
+            margin: 0%;
+         }
+    
+    </style>
+</head>
+<body>
+    <div class="mainflex">
+        <div class="flexitem">Child</div>
+        <div class="flexitem">This is some longer content</div>
+        <div class="flexitem">Child</div>   
+    </div>
+<div>
+    <div class="mainflex">
+        <div class="flexitem2">Child</div>
+        <div class="flexitem2">Child</div>
+        <div class="flexitem2">Child</div>   
+    </div>
+</div>
+<div>
+    <div class="mainflex">
+        <div class="flexitem3">Child</div>
+        <div class="flexitem3">Child</div>
+        <div class=" flexitem3 flexitem31">Child</div>   
+    </div>
+</div>
+<div>
+    <div class="mainflex">
+        <div class="flexitem4">Child</div>
+        <div class="flexitem4 flexitem41">Now this is lot of content we got here and to be honest we shouls wary of chamges...Now this is lot of content we got here and to be honest</div>
+        <div class="flexitem4 color">Child</div>   
+    </div>
+</div>
+<div>
+    <div class="mainflex">
+        <div class="flexitem5">Child</div>
+        <div class="flexitem5">Child</div>
+        <div class="flexitem5">Child</div>   
+    </div>
+</div>
+<div>
+    <div class="mainflex">
+        <div class="flexitem6">Child</div>
+        <div class="flexitem6">Child</div>
+        <div class="flexitem6 flexitem61">Child</div>   
+    </div>
+</div>
+<div>
+    <div class="mainflex mainflex2">
+        <div class="flexitem7 flexitem71">Child</div>
+        <div class="flexitem7">Now this is lot of content we got here and to be honest we shouls wary of chamges...Now this is lot of content we got here and to be honest</div>
+        <div class="flexitem7 flexitem72">Child</div>   
+    </div>
+</div>
+<div>
+    <div class="mainflex mainflex82">
+        <div class="flexitem8">Child</div>
+        <div class="flexitem8">Child</div>
+        <div class="flexitem81">Child</div>   
+    </div>
+</div>
+</body>
+</html>
