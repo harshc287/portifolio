@@ -1,57 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY NAVBARS</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="mynavbars.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY NAVBARS</title>
+  <link rel="stylesheet" href="mynavbars.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div>
-    <div>
-      <div class="leftNav">
+  <div>
+    <nav>
+    <div class="leftnav">
         <div>
-        <img src="./assests/cnnimage.png" alt="" class="logo" />
+          <img src="./assests/cnnimage.png" alt="logo" class="logo">
         </div>
         <div>
-        <ul class="navList">
-          <li class="navItem"><a href="" class="navLink">World</a></li>
-          <li class="navItem"><a href="" class="navLink">Us Politics</li>
-          <li class="navItem"><a href="" class="navLink">Business</a></li>
-          <li class="navItem"><a href="" class="navLink">Helth</a></li>
-          <li class="navItem"><a href="" class="navLink">Entertainment</a></li>
-          <li class="navItem"><a href="" class="navLink">Style</a></li>
-          <li class="navItem"><a href="" class="navLink">Travel</a></li>
-          <li class="navItem"><a href="" class="navLink">Sport</a></li>
-          <li class="navItem"><a href="" class="navLink">videos</a></li>
+          <ul class="navlist">
+            <li class="navitem"><a href="" class="navlink">World</a></li>
+             <li class="navitem"><a href="" class="navlink">US Politics</a></li>
+              <li class="navitem"><a href="" class="navlink">Health</a></li>
+               <li class="navitem"><a href="" class="navlink">Bussness</a></li>
+                <li class="navitem"><a href="" class="navlink">Entertainment</a></li>
+                 <li class="navitem"><a href="" class="navlink">style</a></li>
+                  <li class="navitem"><a href="" class="navlink">Travel</a></li>
+                   <li class="navitem"><a href="" class="navlink">Sport</a></li>
+                    <li class="navitem"><a href="" class="navlink">Videos</a></li>
+          </ul>
+        </div>
+    </div>
+        <div class="rightnav">
+            <div class="rightlink"><a href="" class="iconlink">
+              Edition<i style="margin-left: 8px;"
+              class="fa-solid fa-chevron-down"></i>
+            </a>
+          </div>
+           <div >
+          <a href="" class="iconlink"><i class="fa-solid fa-magnifying-glass navicon"></i></a>
+          <a href="" class="iconlink"><i class="fa-solid fa-circle-user navicon"></i></a>
+          <a href="" class="iconlink"> <i class="fa-solid fa-bars navicon"></i></a>
+        </div>
+        </div>
+    </nav>
+  </div>
+  <div>
+    <nav class="mainnav">
+      <div class="logocontainer">
+        <img src="./bbcnavbar312/BBC-Emblem.png" alt="logo" class="bbclogo">
+        <div class="ver_link"></div>
+        <a href="" class="iconlink"><i class="fa-solid fa-circle-user navicon" style="font-size: x-large;"></i></a>
+        <div class="rightlink"><a href="" class="iconlink" style="margin-left: 5px;">Sign In</a></div>
+        </div>
+        <div>
+          <ul class="navlist">
+          <li class="bbc_navitem ver_link"><a href="" class="navlink">News</a></li>
+          <li class="bbc_navitem ver_link"><a href="" class="navlink">Sport</a></li>
+          <li class="bbc_navitem ver_link"><a href="" class="navlink">Reel</a></li>
+          <li class="bbc_navitem ver_link"><a href="" class="navlink">Worklife</a></li>
+          <li class="bbc_navitem ver_link"><a href="" class="navlink">Travel</a></li>
+          <li class="bbc_navitem ver_link"><a href="" class="navlink">Future</a></li>
+          <li class="bbc_navitem ver_link"><a href="" class="navlink">More </a></li>
+
         </ul>
         </div>
+        <div class="bbc_search"><i style="font-size: small; margin-right: 20px;" class="fa-solid fa-chevron-down"></i>
+        <div class="ver_link"></div><input class="search_bbc" placeholder="Search" type="search">
       </div>
-      <div class="rightNav">
-        <div class="rightLink"><a href="" class="iconLink">Edition<i style="margin-left: 8px;" class="fa-solid fa-chevron-down"></i></a></div>
+    </nav>
+  </div>
+
+  <div>
+    <nav  class="linkdn_nav">
+        <div class="leftnav">
+             <div>
+            <img src="./assests/linkdinlogo.png" alt="logo" class="linkdinlogo"/>
+            </div>
+            <div class="search_container">
+          <input type="search" placeholder="Search" class="linkdin_search">
+            </div>
+      </div>
+      <div style="display:flex; align-items: center;">
+        <a href="#"><i class="fa-solid fa-house linkedin_icon"></i></a>
+        <a href=""> <i class="fa-solid fa-user-group linkedin_icon"></i></a>
+        <a href=""><i class="fa-solid fa-briefcase linkedin_icon"></i></a>
+        <a href=""> <i class="fa-regular fa-comment-dots linkedin_icon"></i></a>
+        <a href=""> <i class="fa-solid fa-bell linkedin_icon"><sup class="bage">8</sup></i></a>
+        <a href=""><i class="fa-solid fa-circle-user linkedin_icon"></i></a>
+        <div class="ver_linkedin"></div>
+        <a href=""> <i class="fa-solid fa-grip linkedin_icon"></i></a>
+        <a href=""><i class="fa-brands fa-youtube linkedin_icon"></i></a>
+      </div>
+    </div>
+  </nav>
+  </div>
+  <div>
+    <nav class="instanav">
+      <div class="leftnav">
         <div>
-        <a href="" class="iconLink"><i class="fa-solid fa-magnifying-glass navIcon"></i></a>
-        <a href="" class="iconLink"><i class="fa-solid fa-circle-user navIcon"></i></a>
-        <a href="" class="iconLink"> <i class="fa-solid fa-bars navIcon" ></i></a>
+        <img src="./assests/inatagram.png" alt="logo" class="instalogo">
+        </div>
+      </div>
+      <div>
+         <input type="search" placeholder="search" class="searchinsta"/>
+      </div>
+      <div>
+        <a href=""class="instaicon"><i class="fa-solid fa-house insta_icon  "></i></a>
+        <a href=""class="instaicon"> <i class="fa-regular fa-compass insta_icon"></i></a>
+        <a href=""class="instaicon"><i class="fa-regular fa-paper-plane insta_icon"></i></a>
+        <a href=""class="instaicon"><i class="fa-regular fa-heart insta_icon"></i></a>
+        <a href=""class="instaicon"> <i class="fa-regular fa-circle-user insta_icon"></i></a>
+      </div>
+
+    </nav>
+  </div>
+  <div>
+    <nav class="youtubenav">
+      <div class="leftnav">
+        <div>
+            <i class="fa-solid fa-bars youtube_icon"></i></div>
+          <div>
+            <img src="./assests/Youtube-Logo.webp" alt="logo" class="youtubelogo">
+          </div>
+          </div>
+          <div class="youtube">
+            <input type="search" placeholder="search" class="searchyoutube"/>
+          <button class="searchbutton">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+         </div>
+         <div class="youtube_icon">
+        <a href=""><i class="fa-solid fa-video youtbe_icon_link"></i></a>
+        <a href=""> <i class="fa-solid fa-grip youtbe_icon_link"></i></a>
+        <a href=""> <i class="fa-solid fa-bell youtbe_icon_link"><sup class="bage">8</sup></i></a>
+        <a href=""><i class="fa-solid fa-circle-user youtbe_icon_link"></i></a>
+      </div>
+      </div>
+    </nav>
+  </div>
+   <div>
+    <nav class="gmailnav">
+      <div class="leftnav">
+        <div>
+            <i class="fa-solid fa-bars gmail_icon"></i></div>
+          <div>
+            <img src="./assests/gmail.png" alt="logo" class="gmaillogo">
+          </div>
+          </div>
+          <div class="gmail">
+            <input type="search" placeholder="search" class="searchgmail"/>
+          <button class="searchbutton">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+         </div>
+         <div class="gmail_iconList">
+        <a href=""><i class="fa-regular fa-circle-question gmail_icon_link"></i></a>
+        <a href=""><i class="fa-solid fa-gear gmail_icon_link"></i></a>
+        <a href=""> <i class="fa-solid fa-grip gmail_icon_link"></i></a>
+        <a href=""><i class="fa-solid fa-circle-user gmail_icon_link"></i></a>
+      </div>
+    </nav>
+  </div>
+  <div>
+    <nav class="bootstrap_nav">
+      <div class="leftnav">
+        <div>
+          <img src="./assests/bootstrap-5.svg" alt="logo" class="Boot_logo" />
+        </div>
+        <div>
+          <ul class="Boot_navList">
+            <li class="Boot_navItem"><a href="" class="Boot_navLink">Home</a></li>
+            <li class="Boot_navItem"><a href="" class="Boot_navLink">Documentaion</li>
+            <li class="Boot_navItem"><a href="" class="Boot_navLink">Example</a></li>
+            <li class="Boot_navItem"><a href="" class="Boot_navLink">Icons</a></li>
+            <li class="Boot_navItem"><a href="" class="Boot_navLink">Themes</a></li>
+            <li class="Boot_navItem"><a href="" class="Boot_navLink">Expo</a></li>
+            <li class="Boot_navItem"><a href="" class="Boot_navLink">Blog</a></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="rightnav">
+
+        <div class="rightlink"><a href="" class="Boot_iconLink">v4.5<i style="margin-left: 8px; font-size: small;"
+              class="fa-solid fa-chevron-down"></i></a></div>
+        <div>
+          <a href="" class="Boot_iconLink"><i class="fa-brands fa-github navicon"></i></a>
+          <a href="" class="Boot_iconLink"><i class="fa-brands fa-twitter navicon"></i></a>
+          <a href="" class="Boot_iconLink"><i class="fa-solid fa-circle-notch navicon"></i></a>
+          <a href="" class="link_button"> Download</a>
         </div>
       </div>
     </nav>
-</div>
-    <div>
-        <nav class="mainnav">
-            <div class="logocontainer">
-                <img src="./bccnavbar/BBC_Logo_2021.svg" alt="logo" class="bbclogo">
-                <a href="" class="icon link" ></a><i class="fa-solid fa-circle-user" style="font-size: x-large;"></i></a>
-                <div class="ver link"></div> 
-                <div class="rightLink"><a href="" class="iconLink" style="margin-left: 10px;">Sign In</a></div>
-            </div> 
-            <div>
-                <ul class="navList">
-                    <li class="bbc_navItem ver_link"><a href="" class="navkink"></a></li>
-                </ul>
-            </div>   
-        </nav>
-    </div>
+  </div>
+   <div>
+    <nav class="face_nav">
+      <div class="leftnav">
+        <div>
+          <img src="./assests/facebook.png" alt="logo" class="logo_face" />
+        </div>
+        <div class="circle-button">
+          <i class="fas fa-search face_icon"></i>
+        </div>
+      </div>
+
+      <div style="display: flex;">
+        <div class="nav-icon active"><i class="fas fa-home face_nav_icon"></i></div>
+        <div class="nav-icon"><i class="fas fa-flag face_icon"></i><span class="badge">9+</span></div>
+        <div class="nav-icon"><i class="fas fa-video face_icon"></i><span class="badge">9+</span></div>
+        <div class="nav-icon"><i class="fas fa-store face_icon"></i></div>
+        <div class="nav-icon"><i class="fas fa-bars face_icon"></i></div>
+      </div>
+      <div class="navbar-right">
+        <div class="circle-button"><i class="fas fa-plus face_icon"></i></div>
+        <div class="circle-button"><i class="fab fa-facebook-messenger face_icon"></i><span class="badge">1</span></div>
+        <div class="circle-button"><i class="fas fa-bell face_icon"></i><span class="badge">2</span></div>
+        <div class="circle-button"><i class="fas fa-caret-down face_icon "></i></div>
+      </div>
+    </nav>
+  </div>
+   <div>
+    <nav class="instanav">
+      <div class="leftNav">
+        <div>
+          <img src="./assests/medium.png" alt="logo" class="instalogo" />
+        </div>
+      </div>
+
+      <div>
+
+        <a href="" class=""><i class="fa-solid fa-house instaicon  "></i></a>
+        <a href=""> <i class="fa-regular fa-compass instaicon"></i></a>
+        <a href=""><i class="fa-regular fa-paper-plane instaicon"></i></a>
+        <a href=""><i class="fa-regular fa-heart instaicon"></i></a>
+        <a href=""> <i class="fa-regular fa-circle-user instaicon"></i></a>
+      </div>
+    </nav>
+  </div>
+
 </body>
 </html>

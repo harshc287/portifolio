@@ -1,0 +1,446 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: rgb(213, 210, 210);
+}
+nav{
+  height: 60px;
+  background: black;
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 80px;
+  margin-top: 3px;
+  margin-left: 30px;
+  height: 55px;
+}
+.leftnav{
+  display: flex;
+  align-items: center;
+}
+.navlist{
+  margin-left: 30px;
+  list-style: none;
+}
+.navitem{
+  display: inline-block;
+  margin-left: 15px;
+}
+.navlink{
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+.navlink:hover{
+  color: red;
+}
+.rightnav{
+  padding-right: 30px;
+  display: flex;
+}
+.rightlink{
+  margin-left: 40px;
+  font-size: large;
+  margin-right: 30px;
+}
+.iconlink{
+  color: white;
+  text-decoration: none;
+  
+}
+.iconlink:hover{
+  color: red;
+}
+.navicon{
+  margin-left: 30px;
+  font-size: large;
+}
+
+/* CNN :end
+
+BCC :start */
+
+.mainnav{
+  padding: 0px 20px;
+}
+.logocontainer{
+  display: flex;
+  align-items: center;
+}
+.bbclogo{
+  margin-right: 10px;
+  width  : 100px;
+  height: 100%px;
+}
+.ver_link{
+  border-left: 1px solid gray;
+  height: 55px;
+}
+.nav_list_link{
+ display: flex;
+}
+.bbc_navitem{
+  display: inline-block;
+  padding: 18px 25px;
+}
+.bbc_search{
+  display: flex;
+  align-items: center;
+}
+.search_bbc{
+  margin-left: 20px;
+  height: 30px;
+  padding: 0px 8px;
+  width: 220px;
+}
+
+/* bcc :end
+linkdin start */
+
+.linkdn_nav{
+  height: 55px;
+  background-color: white;
+}
+.linkdinlogo{
+  width: 50px;
+  height: 50px;
+  margin-top: 4px;
+  margin-left: 30px;
+}
+.search_container{
+  margin-left: 10px;
+}
+.linkdin_search{
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: rgb(243, 243, 243);
+  width: 300px;
+}
+.linkedin_icon{
+  font-size: x-large;
+  color: grey;
+  margin-right: 20px;
+}
+.linkedin_icon:hover{
+  color: black;
+}
+.ver_linkedin{
+  border: 1px solid rgb(201, 198, 198);
+}
+.bage{
+  padding: 1px 5px;
+  border-radius: 50%;
+  font-size: small;
+  background-color: red;
+}
+
+/* linldin end
+insta start  */
+
+
+.instanav{
+  height: 55px;
+  background-color: white;
+}
+.instalogo{
+  height: 50px;
+  width: 150px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.searchinsta{
+  background-color: rgb(244, 244, 244);
+  border: 1px solid rgb(182, 175, 175);
+  margin-left: 20px;
+  height: 30px;
+  border-radius: 4px;
+  padding: 0px 8px;
+  width: 220px;
+}
+.instaicon{
+  font-size: x-large;
+  color: gray;
+  margin-left: 20px;
+}
+.instaicon:hover{
+  color: #000;
+  border-bottom: 1px solid red;
+}
+.searchinsta::placeholder{
+  text-align: center;
+}
+
+/* instanav end
+youtubenav start */
+
+.youtubenav{
+  height: 55px;
+  background-color: white;
+}
+.youtube_icon{
+  color: gray;
+  margin-left: 40px;
+  margin-right: 30px;
+  
+}
+.youtubelogo{
+  height: 40px;
+  width: 150px;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.youtube{
+  display: flex;
+  width: fit-content;
+}
+.searchyoutube{
+  background-color: rgb(244, 244, 244);
+  border: 1px solid rgb(182, 175, 175);
+  margin-left: 20px;
+  height: 30px;
+  border-radius: 0px 4px 4px 0px;
+  padding: 8px;
+  width: 400px;
+}
+.searchbutton{
+  text-align: center;
+  width: 60px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 4px 4px 0px;
+  cursor: pointer;
+}
+.youtube_icon{
+  color: grey;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+.youtbe_icon_link{
+  font-size: x-large;
+  color: grey;
+  margin-right: 20px;
+}
+.searchbutton:hover{
+  color: #dad8d8;
+}
+.youtbe_icon_link:hover{
+  color: black;
+}
+/* 
+end */
+
+.gmailnav{
+  height: 55px;
+  background-color: white;
+}
+.gmaillogo{
+  height: 55px;
+  margin-top: 3px;
+}
+.gmail_icon{
+  color: grey;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+.gmail{
+margin-left: 10px;
+}
+.searchgmail{
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+
+  background-color: #ccc;
+  width: 500px;
+}
+.gmail_iconList{
+  color: grey;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+.gmail_icon_link{
+  font-size: larger;
+  color: grey;
+  margin-right: 20px;
+}
+
+/* end */
+
+.bootstrap_nav {
+  height: 60px;
+  background: #7952b3;
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link_button {
+  margin-left: 10px;
+  text-decoration: none;
+  color: yellow;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid yellow;
+}
+
+.link_button:hover {
+  color: #000;
+  background-color: yellow;
+  border-color: black;
+}
+
+.Boot_logo {
+  border-radius: 10px;
+  height: 70px;
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.Boot_navList {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.Boot_navItem {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.Boot_navLink {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+
+.Boot_navLink:hover {
+  color: black;
+}
+
+.Boot_iconLink:hover {
+  color: black;
+}
+
+.Boot_iconLink {
+  color: white;
+  text-decoration: none;
+}
+
+/* boot end */
+
+.logo_face {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.face_icon {
+  font-size: large;
+  color: gray;
+
+}
+
+.face_icon_list {
+  display: flex;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.circle-button {
+  width: 35px;
+  height: 35px;
+  background: #e4e6eb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.face_icon {
+  color: black;
+}
+
+.circle-button:hover {
+  background-color: #c5c5c7;
+}
+
+.face_nav_icon:hover,
+.face_nav_icon:active {
+  color: #584cff;
+}
+
+.nav-icon {
+  margin: 0 10px;
+  padding: 10px 20px;
+  position: relative;
+  margin-right: 50px;
+
+  cursor: pointer;
+}
+
+.nav-icon:hover,
+.nav-icon.active {
+  color: #584cff;
+  border-bottom: 3px solid #584cff;
+}
+
+
+.badge {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: red;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 1px 4px;
+  border-radius: 12px;
+}
+
+.face_nav {
+  height: 55px;
+  background-color: white;
+}
+
+/* facebook end */
+
+.logo_medium {
+  width: 100px;
+  height: 50px;
+  margin-left: 50px;
+}
+
+.medium_icon {
+  font-size: larger;
+  color: gray;
+  margin-right: 20px;
+}
+
+.medium_icon:hover {
+  color: black;
+}
+
+
