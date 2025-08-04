@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FLEX</title>
     <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
         .mainflex{
             display: flex;
             background-color: rgb(2, 3, 87);
             justify-content:left;
             width: 95%;
-            height:70px;
+            height:103px;
             align-items: center ;
             padding:20px 20px;
             margin-bottom: 15px;
@@ -113,18 +118,209 @@
             width:10%;
              padding-left:20px;
          }
-         .flexitem81{
-            background-color: aqua;
-            flex-basis: 100%;
-            height: 60px;
+         
+           
+         
+         .mainchild{
+            height:120px;
+           flex: 1;
+          background-color: #b54545;
+          display: flex;
+            align-items: center;
+            
+            justify-content: left;
+            height: 50px;
+            width: 100%;
+            
+        
+         
+           
          }
-         .mainflex82{
-            height: 150px;
+         .row{
+            display: flex;
+           width: 90%;
+           height: 50px;
+           flex-direction: column;
+          
+            background-color: rgb(2, 3, 87);
+            justify-content:left;
+            align-items: center ;
+            padding: 20px 20px;
+            margin-bottom: 15px;
+            font-size: large;
+         }
+         .container{
+            display: flex;
+            flex-direction: column;
             flex-wrap: wrap;
-            padding: 0%;
-            margin: 0%;
+            width: 1000px;
+            height: 750px;
+            background-color: black;
+            align-items: center;
+            justify-content: center ;
+            text-align: center;
+            margin-left: 250px;
          }
-    
+         .images{
+              
+            align-items: center;
+            justify-content: center ;
+            text-align: center;
+
+         }
+        .images img{
+            border-radius: 50%;
+            height: 220px;
+            width: 220px;
+            padding: 10px;
+        }
+        .container2{
+            width: 100%;
+            height: 780px;
+           background-color: #b54545;
+           padding: 30px;
+           display: inline-block;
+           margin-top: 20px;
+        }
+        .header{
+            display: flex;
+            background-color: rgb(180, 233, 233);
+            height: 100px;
+            width: 100%;
+           align-items: center;
+           justify-content: center;
+           text-align: center;
+           font-size: x-large;
+            
+        }
+        .asidecontainer{
+            height: 550px;
+            width: 100%;
+            display: flex;
+        }
+        .aside{
+            background-color: rgb(80, 132, 132);
+            width: 400px;
+            height: 500px;
+            margin-top: 30px;
+            align-items: center;
+           justify-content: center;
+           text-align: center;
+           font-size: x-large;
+           text-align: center;
+        }
+        .article{
+            width: 1000px;
+            background: pink;
+            display: inline-block;
+             margin: 30px;
+              align-items: center;
+           justify-content: center;
+           text-align: center;
+           font-size: x-large;
+        }
+        .bottomimg{
+            display: flex;
+            margin-top: 200px;  
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+        }
+        .bottomimg img{
+            width: 230px;
+            height: 230px;
+            
+        }
+        .footer{
+             display: flex;
+            background-color: rgb(180, 233, 233);
+            height: 80px;
+            width: 100%;
+           align-items: center;
+           justify-content: center;
+           text-align: center;
+           font-size: x-large;
+        }
+        .novContainer{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(43, 84, 179);
+            margin-top: 50px;
+             display: flex;
+            
+        }
+        .navbar{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: start;
+            background-color: rgb(180, 187, 193);
+            width: 100%;
+            margin: 15px;
+        }
+        .navitem{
+            margin-left: 30px;
+            text-align: center;
+            align-items: center;
+            
+        }
+        .rightsec {
+            display: flex;
+            justify-content: end;
+            height: 80px;
+            width: 1000px;
+            align-items: center;
+            text-align: center;
+        }
+        .rightsec input {
+            height: 35px;
+            width: 280px;
+            border: none;
+            border-radius: 4px;
+            padding: 10px;
+        }
+        .rightsec button{
+             height: 35px;
+            width: 50px;
+            border: none;
+            border-radius: 30px;
+        }
+        .novContainer2{
+            height: 220px;
+            width: 100%;
+            background-color: rgb(43, 84, 179);
+            margin-top: 50px;
+            display: inline-block;
+            justify-content: start;
+            align-items: center;
+            text-align: center;
+            
+        }
+        .navbar2{
+            height: 100px;
+            display: flex;
+             text-align: center;
+            align-items: center;
+            justify-content: start;
+            background-color: rgb(180, 187, 193);
+            width: 1450px;
+            margin: 20px;
+        }
+        .rightdiv{
+            width: 100%;
+
+        }
+        .rightdiv input{
+            height: 50px;
+            width: 1000px;
+           
+        }
+        .rightdiv button{
+             height: 50px;
+            width: 100px;
+            border: none;
+            border-radius: 30px;
+        }
     </style>
 </head>
 <body>
@@ -166,6 +362,7 @@
         <div class="flexitem6">Child</div>
         <div class="flexitem6">Child</div>
         <div class="flexitem6 flexitem61">Child</div>   
+        
     </div>
 </div>
 <div>
@@ -175,12 +372,69 @@
         <div class="flexitem7 flexitem72">Child</div>   
     </div>
 </div>
-<div>
-    <div class="mainflex mainflex82">
-        <div class="flexitem8">Child</div>
-        <div class="flexitem8">Child</div>
-        <div class="flexitem81">Child</div>   
+
+<div class="container">
+    <div class="images">
+        <img src="./bg imagecss.jpeg" alt="">
+        <img src="./bg imagecss.jpeg" alt="">
+        <img src="./bg imagecss.jpeg" alt="">
+        </div>
+        <div class="images">
+        <img src="./bg imagecss.jpeg" alt="">
+        <img src="./bg imagecss.jpeg" alt="">
+        <img src="./bg imagecss.jpeg" alt="">
+        </div>
+        <div class="images">
+        <img src="./bg imagecss.jpeg" alt="">
+        <img src="./bg imagecss.jpeg" alt="">
+        <img src="./bg imagecss.jpeg" alt="">
     </div>
+
+</div>
+
+
+<div class="container2" >
+    <div class="header">HEADER</div>
+    <div class="asidecontainer">
+        <div class="aside">Aside</div>
+        <div class="article">article
+            <div class="bottomimg">
+            <img src="./bg imagecss.jpeg" alt="">
+            <img src="./bg imagecss.jpeg" alt="">
+            <img src="./bg imagecss.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer">footer</div>
+</div>
+
+<div class="novContainer">
+    <nav class="navbar">
+        <div class="navitem">HOME</div>
+        <div class="navitem">SERVICE</div>
+        <div class="navitem">PRODUCTS</div>
+        <div class="navitem">LOGO</div>
+        <div class="rightsec">
+            <div>
+            <input type="search" placeholder="Search">
+            <button>Go</button>
+            </div>
+        </div>
+    </nav>
+    
+</div>
+
+<div class="novContainer2 ">
+    <nav class="navbar2">
+        <div class="navitem">HOME</div>
+        <div class="navitem">SERVICE</div>
+        <div class="navitem">PRODUCTS</div>
+        <div class="navitem">LOGO</div>
+    </nav>
+    <div class="rightdiv">
+            <input type="search" placeholder="Search">
+            <button>Go</button>
+        </div>
 </div>
 </body>
 </html>
