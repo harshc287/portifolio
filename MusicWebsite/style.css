@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    font-size: xx-large;
+    background-color: rgb(214, 20, 20);
+    color: white;
+}
+.bgbackgradient{
+    background-image: linear-gradient(rgb(0, 255, 166), rgb(0, 89, 255), rgb(0, 238, 255));
+}
+.musicbar{
+    display: flex;
+    justify-content: center;
+}
+.bar{
+    width: 7px;
+    height: 70px;
+    background-color: rgb(255, 0, 212);
+    margin-right: 3px;
+    
+}
+.b1{
+    animation: barmoving 1s infinite;
+}
+.b2{
+    animation: barmoving 1s 0.2s infinite;
+}
+.b3{
+    animation: barmoving 1s 0.5s infinite;
+}
+.b4{
+    animation: barmoving 1s 0.7s infinite;
+}
+.b5{
+    animation: barmoving 1s 0.9s infinite;
+}
+
+    @keyframes barmoving {
+       0%{height: 60px;}
+       50%{height: 30px;}
+       100%{height: 60px;}
+    }
+.buttongroup{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.custombtn{ 
+    background-color: transparent;
+    color: rgb(234, 21, 216);
+    border: 2px solid rgb(12, 12, 12);
+    font-size: large;
+    padding: 7px 16px;
+    font-weight: bold;
+} 
+.custombtn:hover{
+    box-shadow: 2px 2px 4px 2px rgb(255, 0, 0);
+    padding: 10px 25px;
+}  
+.seatcart{
+    display: flex;
+    justify-content: space-around;
+
+}
+.card{
+    width: 10rem;
+    background-color:rgb(241, 246, 91);
+    color: black;
+    border: 2px solid blue;
+    border-radius: 7px;
+    padding: 10px;
+    text-align: center;
+}
+.heading{
+    margin-bottom: 7px;
+}
+..price{
+    margin-bottom: 7px;
+}
+.buynow{
+    text-align: center;
+    background-color: rgb(0, 128, 255);
+    border: none;
+    border-radius: 3px;
+    padding: 3px 9px;
+    box-shadow: 1px 1px 2px 3px orangered ;
+    margin: 7px auto;
+}
+.infosection{
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+   
+
+}
+details{
+    background: rgb(6, 6, 51);
+    color: bisque;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+
+}
+.headinglist{
+    
+}
+summary{
+    font-weight: bold;
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+    font-size: large;
+
+}
+footer h3{
+    margin-bottom: 2rem;
+
+}
+.icongroup i{
+    color: orange;
+    font-size: x-large;
+    transition: font-size 0.3s;
+
+}
+.icongroup i:hover{
+    transform: translate(-5px);
+    font-size: xx-large;
+}
